@@ -7,21 +7,22 @@ import { Card } from "../components/card";
 const socials = [
 	{
 		icon: <Twitter size={20} />,
-		href: "https://twitter.com/chronark_",
+		href: "https://x.com/lafleurdu815",
 		label: "Twitter",
-		handle: "@chronark_",
+		handle: "@lafleurdu815",
 	},
 	{
 		icon: <Mail size={20} />,
-		href: "mailto:dev@chronark.com",
+		href: "mailto:contact@davidantoine.zapto.org",
 		label: "Email",
-		handle: "dev@chronark.com",
+		handle: "david.dharma815@outlook.fr",
+		handle2: "davidantoine815@yahoo.com",
 	},
 	{
 		icon: <Github size={20} />,
-		href: "https://github.com/chronark",
+		href: "https://github.com/DjDaveLafleur815",
 		label: "Github",
-		handle: "chronark",
+		handle: "DjDaveLafleur815",
 	},
 ];
 
@@ -46,10 +47,16 @@ export default function Example() {
 									{s.icon}
 								</span>{" "}
 								<div className="z-10 flex flex-col items-center">
-									<span className="lg:text-xl font-medium duration-150 xl:text-3xl text-zinc-200 group-hover:text-white font-display">
+									<span
+										className="text-xl font-medium duration-150 lg:text-2xl text-zinc-200 group-hover:text-white font-display">
 										{s.handle}
 									</span>
-									<span className="mt-4 text-sm text-center duration-1000 text-zinc-400 group-hover:text-zinc-200">
+									<span
+										className="text-xl font-medium duration-150 lg:text-2xl text-zinc-200 group-hover:text-white font-display">
+										{s.handle2}
+									</span>
+									<span
+										className="mt-4 text-sm text-center duration-1000 text-zinc-400 group-hover:text-zinc-200">
 										{s.label}
 									</span>
 								</div>
