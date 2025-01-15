@@ -46,7 +46,7 @@ export default async function ProjectsPage() {
             Portfolio
           </h2>
           <p className="mt-4 text-zinc-400">
-            Découvrez mes créations et projets récents.
+            Découvrez mes créations et projets récents. Certains de ces projets sont liés à la formation et d'autres sont réalisés sur mon temps libre.
           </p>
         </div>
         <div className="w-full h-px bg-zinc-800" />
