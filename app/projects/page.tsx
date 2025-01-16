@@ -6,7 +6,7 @@ import { Eye } from "lucide-react";
 import { UrlObject } from "url";
 
 const GITLAB_API_URL = "https://gitlab.com/api/v4";
-const GITLAB_TOKEN = process.env.GITLAB_TOKEN;
+const GITLAB_TOKEN = process.env.GITLAB_TOKEN; // Ajoutez votre token GitLab ici ou dans un fichier .env
 
 export const revalidate = 60;
 
@@ -22,7 +22,7 @@ async function fetchGitLabProjects() {
     }
 
     const projects = await response.json();
-    return projects.map((project) => ({
+    return projects.map((project: { id: any; path_with_namespace: any; name: any; description: any; created_at: any; star_count: any; web_url: any; }) => ({
         id: project.id,
         slug: project.path_with_namespace,
         title: project.name,
