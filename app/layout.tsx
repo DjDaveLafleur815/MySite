@@ -6,7 +6,7 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
+    default: "ANTOINE David - Développeur Web, Mobile et Desktop",
     template: "%s | chronark.com",
   },
   description: "Co-founder of unkey.dev and founder of planetfall.io",
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description:
       "Co-founder of unkey.dev and founder of planetfall.io",
     url: "https://chronark.com",
-    siteName: "chronark.com",
+    siteName: "ANTOINE David - Développeur Web, Mobile et Desktop",
     images: [
       {
         url: "https://chronark.com/og.png",
